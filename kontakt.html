@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kontakt - SS Electric</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: black;
+      color: white;
+      line-height: 1.6;
+      padding: 2rem;
+      background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('pozadina1.jpg') no-repeat center center fixed;
+      background-size: cover;
+      min-height: 100vh;
+    }
+    header {
+      background-color: rgba(0, 0, 0, 0.85);
+      padding: 1rem 2rem;
+      display: flex;
+      align-items: center;
+      margin-bottom: 2rem;
+    }
+    header img {
+      height: 50px;
+      margin-right: 1rem;
+    }
+    header h1 {
+      font-size: 1.8rem;
+      display: flex;
+      align-items: center;
+    }
+    .svg-munja {
+      display: inline-block;
+      vertical-align: middle;
+      margin: 0 6px;
+    }
+    nav {
+      margin-left: auto;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 1.5rem;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #00bcd4;
+    }
+    main {
+      max-width: 900px;
+      margin: 0 auto;
+      background-color: rgba(0,0,0,0.6);
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(0,188,212,0.7);
+    }
+    h2 {
+      color: #00bcd4;
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+    .kontakt-info {
+      margin-bottom: 2rem;
+      font-size: 1.1rem;
+      color: #ccc;
+    }
+    .kontakt-info p {
+      margin-bottom: 0.8rem;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    input, textarea {
+      padding: 0.8rem;
+      border-radius: 6px;
+      border: none;
+      font-size: 1rem;
+      background-color: #1c1c1c;
+      color: white;
+      box-shadow: 0 0 5px rgba(0,188,212,0.3);
+    }
+    input:focus, textarea:focus {
+      outline: none;
+      box-shadow: 0 0 8px rgba(0,188,212,0.8);
+    }
+    button {
+      padding: 0.9rem;
+      background-color: #00bcd4;
+      color: black;
+      font-weight: bold;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    button:hover {
+      background-color: #009fb8;
+    }
+    iframe {
+      width: 100%;
+      height: 300px;
+      margin-top: 2rem;
+      border-radius: 12px;
+      border: none;
+      box-shadow: 0 0 10px rgba(0,188,212,0.5);
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: rgba(0, 0, 0, 0.85);
+      color: white;
+      margin-top: 4rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div style="display: flex; align-items: center;">
+    <img src="image0.png" alt="SS Electric logo" />
+    <h1>SS 
+      <span class="svg-munja">
+        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="#00bcd4" viewBox="0 0 24 24">
+          <path d="M7 2v13h3v7l7-12h-4l4-8z"/>
+        </svg>
+      </span> 
+      Electric
+    </h1>
+  </div>
+  <nav>
+    <a href="pocetna.html">Početna</a>
+    <a href="onama.html">O nama</a>
+    <a href="usluge.html">Usluge</a>
+    <a href="kontakt.html">Kontakt</a>
+  </nav>
+</header>
+
+<main>
+  <h2>Kontaktirajte nas</h2>
+
+  <div class="kontakt-info">
+    <p><strong>Adresa:</strong> Bijeljina, Bosna i Hercegovina</p>
+    <p><strong>Telefon:</strong> +387 65 743 019 </p>
+    <p><strong>Email:</strong> ss.electric099@gmail.com</p>
+    <p><strong>Radno vrijeme:</strong> Pon - Pet: 08:00 - 17:00</p>
+  </div>
+
+  <form action="#" method="post">
+    <input type="text" name="ime" placeholder="Vaše ime" required />
+    <input type="email" name="email" placeholder="Vaš email" required />
+    <textarea name="poruka" rows="5" placeholder="Vaša poruka..." required></textarea>
+    <button type="submit">Pošalji poruku</button>
+  </form>
+
+  <iframe 
+    src="https://www.google.com/maps?q=Komitska+68,+Bijeljina,+Bosna+i+Hercegovina&output=embed"
+    allowfullscreen=""
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+</main>
+
+<footer>
+  © 2025 SS Electric. Sva prava zadržana.
+</footer>
+
+</body>
+</html>

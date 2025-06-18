@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ugradnja elektroinstalacija - SS Electric</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: black;
+      color: white;
+      line-height: 1.6;
+      padding: 2rem;
+      background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('pozadina1.jpg') no-repeat center center fixed;
+      background-size: cover;
+      min-height: 100vh;
+    }
+    header {
+      background-color: rgba(0, 0, 0, 0.85);
+      padding: 1rem 2rem;
+      display: flex;
+      align-items: center;
+      margin-bottom: 2rem;
+    }
+    header img {
+      height: 50px;
+      margin-right: 1rem;
+    }
+    header h1 {
+      font-size: 1.8rem;
+      display: flex;
+      align-items: center;
+    }
+    .svg-munja {
+      display: inline-block;
+      vertical-align: middle;
+      margin: 0 6px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 1.5rem;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #00bcd4;
+    }
+    nav {
+      margin-left: auto;
+    }
+    main {
+      max-width: 900px;
+      margin: 0 auto;
+      background-color: rgba(0,0,0,0.6);
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(0,188,212,0.7);
+    }
+    h2 {
+      color: #00bcd4;
+      margin-bottom: 1rem;
+    }
+    p {
+      margin-bottom: 1.5rem;
+      font-size: 1.1rem;
+      color: #ccc;
+    }
+    .slike {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 2rem;
+    }
+    .slike img {
+      width: 280px;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,188,212,0.6);
+      transition: transform 0.3s ease;
+      cursor: pointer;
+    }
+    .slike img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 6px 15px rgba(0,188,212,0.9);
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: rgba(0, 0, 0, 0.85);
+      color: white;
+      margin-top: 4rem;
+    }
+    @media (max-width: 768px) {
+      .slike img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div style="display: flex; align-items: center;">
+    <img src="image0.png" alt="SS Electric logo" style="height: 50px; margin-right: 1rem;" />
+    <h1>SS 
+      <span class="svg-munja">
+        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="#00bcd4" viewBox="0 0 24 24">
+          <path d="M7 2v13h3v7l7-12h-4l4-8z"/>
+        </svg>
+      </span> 
+      Electric
+    </h1>
+  </div>
+  <nav>
+    <a href="pocetna.html">Početna</a>
+    <a href="onama.html">O nama</a>
+    <a href="usluge.html">Usluge</a>
+    <a href="kontakt.html">Kontakt</a>
+  </nav>
+</header>
+
+<main>
+  <h2>Profesionalna ugradnja elektroinstalacija</h2>
+  <p>
+    Naš tim stručnjaka pruža vrhunske usluge ugradnje elektroinstalacija sa posebnim naglaskom na sigurnost, pouzdanost i dugotrajnost. Koristimo najkvalitetnije materijale i savremenu opremu kako bismo osigurali da vaša instalacija bude u skladu sa svim standardima i propisima.
+  </p>
+  <p>
+    Bilo da se radi o novogradnji, renoviranju ili adaptaciji, naša stručnost garantuje besprekornu izvedbu, efikasno postavljanje kablova, osigurača, prekidača i rasvete. Takođe pružamo i održavanje i servisiranje postojećih instalacija.
+  </p>
+  <p>
+    Vaša sigurnost nam je prioritet – zato svaki projekat obavljamo sa maksimalnom pažnjom i detaljima koji sprečavaju bilo kakve buduće probleme.
+  </p>
+
+  <div class="slike">
+    <img src="elektro1.jpg" alt="Postavljanje kablova" />
+    <img src="elektro2.jpg" alt="Montaža osigurača" />
+    <img src="elektro3.jpg" alt="Električar na poslu" />
+  </div>
+</main>
+
+<footer>
+  © 2025 SS Electric. Sva prava zadržana.
+</footer>
+
+</body>
+</html>

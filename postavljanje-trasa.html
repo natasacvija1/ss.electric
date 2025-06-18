@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Elektro-trase - SS Electric</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: black;
+      color: white;
+      line-height: 1.6;
+      padding: 2rem;
+      background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('pozadina1.jpg') no-repeat center center fixed;
+      background-size: cover;
+      min-height: 100vh;
+    }
+
+    header {
+      background-color: rgba(0, 0, 0, 0.85);
+      padding: 1rem 2rem;
+      display: flex;
+      align-items: center;
+      margin-bottom: 2rem;
+    }
+
+    header img {
+      height: 50px;
+      margin-right: 1rem;
+    }
+
+    header h1 {
+      font-size: 1.8rem;
+      display: flex;
+      align-items: center;
+    }
+
+    .svg-munja {
+      display: inline-block;
+      vertical-align: middle;
+      margin: 0 6px;
+    }
+
+    nav {
+      margin-left: auto;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 1.5rem;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #00bcd4;
+    }
+
+    main {
+      max-width: 1100px;
+      margin: 0 auto;
+      background-color: rgba(0,0,0,0.6);
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(0,188,212,0.7);
+    }
+
+    h2 {
+      color: #00bcd4;
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+
+    .blok {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      margin-bottom: 3rem;
+      gap: 2rem;
+    }
+
+    .blok:nth-child(even) {
+      flex-direction: row-reverse;
+    }
+
+    .tekst {
+      flex: 1;
+      font-size: 1.1rem;
+      color: #ccc;
+    }
+
+    .slika {
+      flex: 1;
+    }
+
+    .slika img {
+      width: 60%;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,188,212,0.5);
+      transition: transform 0.3s ease;
+    }
+
+    .slika img:hover {
+      transform: scale(1.03);
+      box-shadow: 0 6px 15px rgba(0,188,212,0.8);
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: rgba(0, 0, 0, 0.85);
+      color: white;
+      margin-top: 4rem;
+    }
+
+    @media (max-width: 768px) {
+      .blok {
+        flex-direction: column !important;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="image0.png" alt="SS Electric logo" />
+  <h1>SS <span class="svg-munja">
+    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="#00bcd4" viewBox="0 0 24 24">
+      <path d="M7 2v13h3v7l7-12h-4l4-8z"/>
+    </svg>
+  </span> Electric</h1>
+  <nav>
+    <a href="pocetna.html">Početna</a>
+    <a href="onama.html">O nama</a>
+    <a href="usluge.html">Usluge</a>
+    <a href="kontakt.html">Kontakt</a>
+  </nav>
+</header>
+
+<main>
+  <h2>Postavljanje elektro-trasa u auto industriji</h2>
+
+  <div class="blok">
+    <div class="tekst">
+      <p>SS Electric vrši profesionalnu i preciznu postavku elektro-trasa specijalno prilagođenih zahtevima automobilske industrije. Naši sistemi omogućavaju efikasno sprovođenje električnih instalacija kroz hale, proizvodne linije i tehničke prostore.</p>
+    </div>
+    <div class="slika">
+      <img src="trase1.jpg" alt="Polaganje elektro-trasa" />
+    </div>
+  </div>
+
+  <div class="blok">
+    <div class="tekst">
+      <p>Koristimo kvalitetne kablovske kanale, šine i pričvršćivače otporne na vibracije, vlagu i hemikalije – sve prema standardima auto-industrije. Instalacije se izvode brzo, stručno i sa potpunom dokumentacijom.</p>
+    </div>
+    <div class="slika">
+      <img src="trase2.jpg" alt="Kablovski sistemi u hali" />
+    </div>
+  </div>
+
+  <div class="blok">
+    <div class="tekst">
+      <p>Bez obzira da li se radi o proizvodnim halama, laboratorijama ili linijama za montažu, naši timovi garantuju sigurnost, dugotrajnost i estetski uredan rezultat.</p>
+    </div>
+    <div class="slika">
+      <img src="trase3.jpg" alt="Kabelske police" />
+    </div>
+  </div>
+</main>
+
+<footer>
+  © 2025 SS Electric. Sva prava zadržana.
+</footer>
+
+</body>
+</html>
